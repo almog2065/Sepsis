@@ -1,0 +1,15 @@
+name: hw1_env
+dependencies:
+  - python=3.10.10
+  - pip
+  - pip:
+      - numpy
+      - pandas
+      - sklearn==0.0.post4
+      - os
+      - torch==2.0.0+cu118
+      - seaborn
+      - xgboost==1.7.5
+      - matplotlib
+      - collections 
+      - pickle
