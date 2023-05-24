@@ -5,11 +5,8 @@ dependencies:
   - pip:
       - numpy
       - pandas
-      - sklearn==0.0.post4
-      - os
-      - torch==2.0.0+cu118
+      - scikit-learn
+      - torch
       - seaborn
       - xgboost==1.7.5
       - matplotlib
-      - collections 
-      - pickle
